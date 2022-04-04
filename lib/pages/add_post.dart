@@ -11,6 +11,7 @@ class AddPostPage extends StatefulWidget {
 
 class _AddPostPageState extends State<AddPostPage> {
   bool isLoading = false;
+
   TextEditingController titleController = TextEditingController();
   TextEditingController bodyController = TextEditingController();
 
